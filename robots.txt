@@ -1,0 +1,7 @@
+# Shady = No Blowjob Fantasy Football League
+# https://shadynobj.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://shadynobj.com/sitemap.xml
