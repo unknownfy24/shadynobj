@@ -1,7 +1,10 @@
 # Shady = No Blowjob Fantasy Football League
 # https://shadynobj.com
+#
+# This site is intentionally kept OUT of search engines.
+# Crawling is deliberately allowed so crawlers can read the "noindex"
+# directive present on every page and in the X-Robots-Tag response header.
+# (Blocking with Disallow would prevent them from ever seeing the noindex.)
 
 User-agent: *
 Allow: /
-
-Sitemap: https://shadynobj.com/sitemap.xml
