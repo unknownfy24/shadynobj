@@ -350,6 +350,15 @@
     .champ-layout { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: start; }
     .ledger { list-style: none; column-count: 2; column-gap: 48px; }
     .ledger li { break-inside: avoid; }
+    .champ-foot { margin-top: 34px; }
+    .champ-foot a {
+      font-family: "Barlow Condensed", sans-serif; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em; font-size: 15px;
+      color: var(--gold); text-decoration: none;
+      border-bottom: 2px solid var(--gold-deep); padding-bottom: 3px;
+      transition: color .15s, border-color .15s;
+    }
+    .champ-foot a:hover { color: var(--paper); border-color: var(--paper); }
     .ledger li {
       display: flex; align-items: baseline; gap: 12px;
       padding: 14px 0; border-bottom: 1px solid rgba(242,232,214,0.16);
@@ -716,6 +725,7 @@
           <li><span class="yr">2009</span> <span class="who">Frank Gore-gasm FTW</span> <span class="lead"></span></li>
           <li><span class="yr">2008</span> <span class="who">lhjgksxlg;oililuc</span> <span class="lead"></span></li>
         </ul>
+        <p class="champ-foot"><a href="alumni.html">Alumni &amp; past champions who've since moved on →</a></p>
       </div>
     </div>
   </section>
