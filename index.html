@@ -249,6 +249,31 @@
       font-family: "Space Mono", monospace; font-size: 13px; color: var(--gold-deep);
       margin-top: 16px; letter-spacing: 0.04em;
     }
+    .draft-info {
+      margin-top: 42px; max-width: 900px;
+      border-top: 2px solid var(--gold-deep); padding-top: 30px;
+    }
+    .draft-info h3 {
+      font-family: "Anton", sans-serif; text-transform: uppercase;
+      font-size: clamp(1.4rem, 3.6vw, 2.2rem); color: var(--paper);
+      letter-spacing: -0.01em; margin-bottom: 24px;
+    }
+    .draft-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 24px 40px;
+    }
+    .di-item { border-left: 3px solid var(--blood); padding-left: 15px; }
+    .di-k {
+      font-family: "Space Mono", monospace; font-size: 12px; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 7px;
+    }
+    .di-v {
+      font-family: "Barlow Condensed", sans-serif; font-weight: 600;
+      font-size: 20px; color: var(--paper); line-height: 1.25;
+    }
+    .di-v a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
+    .di-v a:hover { color: var(--paper); }
+    .draft-cta { margin-top: 30px; }
 
     /* ---------- SECTIONS ---------- */
     section { padding: 92px 0; position: relative; }
@@ -527,6 +552,31 @@
           allowfullscreen></iframe>
       </div>
       <p class="attn">The names have been drawn. No do-overs.</p>
+
+      <div class="draft-info">
+        <h3>Draft Day — Saturday, August 29</h3>
+        <div class="draft-grid">
+          <div class="di-item">
+            <span class="di-k">Draft Starts</span>
+            <span class="di-v">7:00 PM sharp</span>
+          </div>
+          <div class="di-item">
+            <span class="di-k">Arrival</span>
+            <span class="di-v">Show up between 6–7 PM</span>
+          </div>
+          <div class="di-item">
+            <span class="di-k">Food &amp; Drink</span>
+            <span class="di-v">Food and snacks provided · BYOB</span>
+          </div>
+          <div class="di-item">
+            <span class="di-k">Location</span>
+            <span class="di-v"><a href="https://www.google.com/maps/search/?api=1&amp;query=3512+Pinehurst+Dr+Plano+TX+75075" target="_blank" rel="noopener">3512 Pinehurst Dr, Plano, TX 75075</a></span>
+          </div>
+        </div>
+        <div class="draft-cta">
+          <a class="btn primary" href="https://docs.google.com/spreadsheets/d/11p93RIUgcYcl68Lh4yJn6vJWckWmNEtWcsVZPeAbN7M/edit?usp=sharing" target="_blank" rel="noopener">Drafting Remote? Open the Sheet ↗</a>
+        </div>
+      </div>
     </div>
   </section>
 
